@@ -65,8 +65,17 @@
       <section class="main-section" id="Implementation">
         <header>Implementation</header>
         <p>Below is the implementation of the bubble sort. It can be optimized by stopping the algorithm if the inner loop didn’t cause any swap.</p>
+        <div id="code-chooser">
+          <a href="#javascript">Javascript</a>
+          <a href="#python">Python3</a>
+          <a href="#php">PHP</a>
+          <a href="#java">Java</a>
+          <a href="#c#">C#</a>
+        </div>
+        <div id="code-example">
         <div class="code-section">
-          <code class="javascript">// Optimized javaScript implementation
+          <code id="javascript">
+// Optimized javaScript implementation
 // of Bubble sort
 // An optimized version of Bubble Sort
 function bubbleSort(arr, n)
@@ -114,7 +123,8 @@ printArray(arr, n);
           </code>
         </div>
         <div class="code-section">
-          <code class="python"># Optimized Python program for implementation of Bubble Sort
+          <code id="python">
+# Optimized Python program for implementation of Bubble Sort
 
 
 def bubbleSort(arr):
@@ -151,7 +161,8 @@ if __name__ == "__main__":
           </code>
         </div>
         <div class="code-section">
-          <code class="php">/<\?php 
+          <code id="php">
+&lt;?php 
 // PHP Optimized implementation
 // of Bubble sort
 
@@ -201,11 +212,12 @@ for($i = 0; $i < $len; $i++)
 	echo $arr[$i]." ";
 	
 // This code is contributed by ChitraNayal.
-?>
+?&gt;
           </code>
         </div>
         <div class="code-section">
-          <code class="java">// Optimized java implementation of Bubble sort
+          <code id="java">
+// Optimized java implementation of Bubble sort
 
 import java.io.*;
 
@@ -261,7 +273,8 @@ class GFG {
           </code>
         </div>
         <div class="code-section">
-          <code class="c#">// Optimized C# implementation of Bubble sort
+          <code id="c#">
+// Optimized C# implementation of Bubble sort
 using System;
 
 class GFG {
@@ -312,8 +325,9 @@ class GFG {
 // This code is contributed by Sam007
           </code>
         </div>
+        </div>
         <p class="bold">Output</p>
-        <div class="output">
+        <div class="highlighted">
           <p>Sorted array:</p>
           <p>11 12 22 25 34 64 90</p>
         </div>
