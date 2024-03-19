@@ -1,0 +1,144 @@
+/*
+colors:
+#518f8b
+#e3e1c8
+#472c33
+#e6462d
+*/
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  @media (max-width: 560px) {
+    #main-doc {
+      position: relative;
+      margin: 270px 20px 0 20px;
+      padding-bottom: 5px;
+    }
+    #navbar {
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+    #navbar ul {
+      max-height: 200px;
+      border-bottom: 2px solid #472c33;
+      border-top: 2px solid #472c33;
+    }
+    #navbar li:last-of-type {
+      border-bottom: none;
+    }
+    #navbar header {
+      margin: 0 auto;
+    }
+  }
+  
+  @media (min-width: 561px) {
+    #main-doc {
+      margin: 10px 15px 0 220px;
+      position: absolute;
+    }
+    #navbar {
+      position: fixed;
+      height: 100%;
+      border-right: 2px solid #472c33;
+    }
+    #navbar header {
+      border-bottom: 2px solid #472c33;
+    }
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-size: 16px;
+    font-family: sans-serif, Arial;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #e3e1c8;
+    color: #472c33;
+  }
+  
+  #navbar ul {
+    overflow-y: auto;
+    overflow-x: hidden;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  #navbar header {
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 1.2em;
+    max-width: 200px;
+  }
+  
+  #navbar li {
+    padding: 15px 25px;
+    border-bottom: 2px solid #472c33;
+  }
+  
+  #navbar a {
+    color: #472c33;
+    text-decoration: none;
+  }
+  
+  ul {
+    display: block;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .highlighted {
+    background-color: #472c33ee;
+    color: #e3e1c8;
+    padding: 5px 12px;
+    border-radius: 5px;
+  }
+  
+  .main-section header {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 10px;
+  }
+  
+  figure {
+    padding: 10px 0 5px;
+  }
+  
+  figcaption {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .code-section {
+    background-color: #472c33ee;
+    color: #e3e1c8;
+    padding: 10px 12px;
+    border-radius: 5px;
+    white-space: pre-line;
+    margin: 10px 0;
+  }
